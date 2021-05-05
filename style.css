@@ -7,4 +7,32 @@
     position: absolute; 
     left: 0px; 
     top: 0px;
+    z-index: 1;
+}
+#BlueBall {
+    width: 80px;
+    height: 80px;
+    background-image: url("BlueBall.png");
+    background-size: 80px 80px;
+    image-rendering: pixelated;
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+}
+
+#RedBall {
+    width: 80px;
+    height: 80px;
+    background-image: url("RedBall.png");
+    background-size: 80px 80px;
+    image-rendering: pixelated;
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
+}
+
+body {
+    background-color: #006400;
+    background-image: url("Grass.png");
+    background-repeat: repeat;
 }
