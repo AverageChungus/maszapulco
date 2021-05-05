@@ -1,7 +1,9 @@
 #Mosze {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     background-image: url("Mosze.png");
+    background-size: 80px 80px;
+    image-rendering: pixelated;
     position: absolute; 
     left: 0px; 
     top: 0px;

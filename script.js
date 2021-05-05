@@ -1,8 +1,8 @@
 function main () {
     let x=0;
     let y=0;
-    const width = 40;
-    const height = 40;
+    const width = 80;
+    const height = 80;
     document.onkeydown = function keydown(e) {
         switch (e.code) {
             case "ArrowLeft":
